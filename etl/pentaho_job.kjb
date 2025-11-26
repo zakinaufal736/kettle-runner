@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+f<?xml version="1.0" encoding="UTF-8"?>
+
 <job>
   <name>pentaho_job</name>
   <description/>
@@ -315,7 +316,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/pentaho_workflow.ktr</filename>
+      <filename>${GITHUB_WORKSPACE}/etl/pentaho_workflow.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
